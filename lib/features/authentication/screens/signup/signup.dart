@@ -20,8 +20,7 @@ class SignupScreen extends StatelessWidget {
             children: [
               /// Title
               Text(
-                TTexts.signUpTitle,
-                style: Theme.of(context).textTheme.headlineMedium,
+                TTexts.signUpTitle, style: Theme.of(context).textTheme.headlineMedium,
               ),
               const SizedBox(height: TSizes.spaceBtwItems),
 
